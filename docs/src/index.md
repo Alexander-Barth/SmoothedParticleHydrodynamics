@@ -30,7 +30,7 @@ and it normalized:
 and converges to the Dirac function $\delta(\mathbf r - \mathbf r')$ if $h$ tends to zero.
 
 ```math
-\lim_{h \rightarrow 0} \int W(|\mathbf r - \mathbf r'|,h) d^n r' = \delta(\mathbf r - \mathbf r')
+\lim_{h \rightarrow 0} W(|\mathbf r - \mathbf r'|,h) = \delta(\mathbf r - \mathbf r')
 ```
 
 For small $h$ enought and sufficiently many particles, we can therefore approximate the integral using the discrete sum:
